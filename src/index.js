@@ -1,4 +1,14 @@
-console.log('hello123');
+// import './styles/style.css';
+import header from './header';
+import home from './home';
+import footer from './footer';
+import menu from './menu';
+import contact from './contact';
+
+const content = document.getElementById('content');
+
+content.append(header());
+content.append(footer());
 
 // Put the contents of each ‘tab’ inside of its own module. Each module will export a function
 // that creates a div element, adds the appropriate content and styles to that element and then

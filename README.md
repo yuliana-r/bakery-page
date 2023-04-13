@@ -11,6 +11,6 @@ The project primarily demonstrates use of npm to incorporate external JS modules
 
 ## Media credits:
 
-1. Flaticon: https://www.flaticon.com/free-icons/biscuit
+1. Flaticon: https://www.flaticon.com/free-icons/food-and-restaurant
 
 2. Unsplash: https://unsplash.com/photos/R3iAcQxylmE
