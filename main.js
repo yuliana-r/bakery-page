@@ -7,15 +7,16 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/contact.js":
 /*!************************!*\
   !*** ./src/contact.js ***!
   \************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://bakery-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact() {\n  const contact = document.createElement('div');\n\n  const desc = document.createElement('p');\n  desc.textContent = 'this is contact content';\n\n  contact.appendChild(desc);\n\n  return contact;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/contact.js?");
 
 /***/ }),
 
@@ -25,8 +26,7 @@ eval("\n\n//# sourceURL=webpack://bakery-page/./src/contact.js?");
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ footer)\n/* harmony export */ });\nfunction footer() {\n  const footer = document.createElement('footer');\n  footer.innerHTML = 'THIS IS THE BAKERY FOOTER';\n\n  return footer;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ createFooter)\n/* harmony export */ });\nfunction createFooter() {\n  const footer = document.createElement('footer');\n  footer.innerHTML = 'THIS IS THE BAKERY FOOTER';\n\n  return footer;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/footer.js?");
 
 /***/ }),
 
@@ -36,8 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ header)\n/* harmony export */ });\nfunction header() {\n  const header = document.createElement('header');\n  header.innerHTML = 'THIS IS THE BAKERY HEADER';\n\n  return header;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ header)\n/* harmony export */ });\nfunction header() {\n  const header = document.createElement('header');\n\n  const name = document.createElement('h1');\n  name.textContent = 'All You Knead Is Loaf';\n\n  const desc = document.createElement('p');\n  desc.textContent = 'Artisanal Vegan Bakery';\n\n  const navBar = document.createElement('nav');\n\n  const homeBtn = document.createElement('button');\n  homeBtn.textContent = 'HOME';\n\n  const menuBtn = document.createElement('button');\n  menuBtn.textContent = 'MENU';\n\n  const contactBtn = document.createElement('button');\n  contactBtn.textContent = 'CONTACT';\n\n  navBar.appendChild(homeBtn);\n  navBar.appendChild(menuBtn);\n  navBar.appendChild(contactBtn);\n\n  header.appendChild(name);\n  header.appendChild(desc);\n  header.appendChild(navBar);\n\n  return header;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/header.js?");
 
 /***/ }),
 
@@ -45,9 +44,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*********************!*\
   !*** ./src/home.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://bakery-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\nfunction home() {\n  const home = document.createElement('div');\n\n  const desc = document.createElement('p');\n  desc.textContent = 'this is home content';\n\n  home.appendChild(desc);\n\n  return home;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/home.js?");
 
 /***/ }),
 
@@ -57,8 +56,7 @@ eval("\n\n//# sourceURL=webpack://bakery-page/./src/home.js?");
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.js */ \"./src/header.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_home__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_menu__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_contact__WEBPACK_IMPORTED_MODULE_4__);\n// import '../styles/style.css';\n\n\n\n\n\n\nconst content = document.getElementById('content');\n\ncontent.append((0,_header_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\ncontent.append((0,_footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"])());\nconsole.log('hello123');\n\n// Put the contents of each ‘tab’ inside of its own module. Each module will export a function\n// that creates a div element, adds the appropriate content and styles to that element and then\n// appends it to the DOM.\n\n// tab switching logic\n// You should have event listeners for each tab that wipes out the current contents and then runs\n// the correct ‘tab module’ to populate it again.\n\n\n//# sourceURL=webpack://bakery-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n// import './styles/style.css';\n\n\n\n\n\n\nconst content = document.getElementById('content');\n\nfunction loadPage(header, main, footer) {\n  content.innerText = '';\n  content.append(header());\n  content.append(main());\n  content.append(footer());\n}\n\ndocument.addEventListener('click', (e) => {\n  const target = e.target.innerText;\n\n  if (target === 'HOME') { loadPage(_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _home__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]); }\n  if (target === 'MENU') { loadPage(_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _menu__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]); }\n  if (target === 'CONTACT') { loadPage(_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _contact__WEBPACK_IMPORTED_MODULE_4__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]); }\n});\n\nloadPage(_header__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _home__WEBPACK_IMPORTED_MODULE_1__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n\n//# sourceURL=webpack://bakery-page/./src/index.js?");
 
 /***/ }),
 
@@ -66,9 +64,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hea
 /*!*********************!*\
   !*** ./src/menu.js ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://bakery-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu() {\n  const menu = document.createElement('div');\n\n  const desc = document.createElement('p');\n  desc.textContent = 'this is menu content';\n\n  menu.appendChild(desc);\n\n  return menu;\n}\n\n\n//# sourceURL=webpack://bakery-page/./src/menu.js?");
 
 /***/ })
 
@@ -99,18 +97,6 @@ eval("\n\n//# sourceURL=webpack://bakery-page/./src/menu.js?");
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
