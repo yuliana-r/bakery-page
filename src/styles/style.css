@@ -4,13 +4,39 @@ body {
     background-position: fixed;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
 header {
-    background-color: white;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+}
 
+p {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em;
+    color: white;
 }
 
 footer {
     background-color: white;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
 }

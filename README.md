@@ -9,7 +9,7 @@ The project primarily demonstrates use of npm to incorporate external JS modules
 
 <!-- [![Bakery Page](./demo.png)](https://yuliana-r.github.io/bakery-page/) -->
 
-## Media credits:
+## Media & assets credits:
 
 1. Flaticon: https://www.flaticon.com/free-icons/food-and-restaurant
 
