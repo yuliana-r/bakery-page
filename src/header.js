@@ -36,9 +36,9 @@ export default function header() {
   //   button.classList.add('active');
   // }
 
-  homeBtn.setAttribute('id', 'home');
-  menuBtn.setAttribute('id', 'menu');
-  contactBtn.setAttribute('id', 'contact');
+  // homeBtn.setAttribute('id', 'home');
+  // menuBtn.setAttribute('id', 'menu');
+  // contactBtn.setAttribute('id', 'contact');
 
   navBar.appendChild(homeBtn);
   navBar.appendChild(menuBtn);

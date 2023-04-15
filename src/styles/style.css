@@ -5,6 +5,10 @@
     src: url('../assets/title.otf');
 }
 
+html {
+    height: 100%;
+    overflow-y: scroll;
+  }
 
 body {
     background-image: url('../assets/background.jpg');
@@ -18,13 +22,24 @@ body {
 header,
 footer {
     background-color: black;
-    
     text-align: center;
 }
+
 
 header {
     background: rgba(0, 0, 0, 0.4);
 }
+
+.contact {
+    width: 55%;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em auto;
+    background: rgba(0, 0, 0, 0.7);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
 
 p {
     color: white;
@@ -38,10 +53,6 @@ a {
     text-decoration: none;
     user-select: none;
     cursor: pointer;
-}
-
-a:hover {
-    opacity: 0.8;
 }
 
 h1 {
@@ -75,13 +86,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: relative;
     font-family: 'Quicksand', sans-serif;
     gap: 0.5rem;
     bottom: 0;
     right: 0;
     left: 0;
     top: auto; 
+    margin-top: 1em;
     text-align: center;
     padding: 0;
     background: rgba(0, 0, 0, 0.8);
@@ -111,7 +123,4 @@ i:hover {
   }
   
   @media (max-width: 500px) {
-    html {
-      font-size: 57.5%;
-    }
   }
