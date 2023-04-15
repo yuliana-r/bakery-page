@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Quicksand:wght@500&display=swap');
+
+@font-face {
+    font-family: titleFont;
+    src: url('../assets/title.otf');
+}
+
+
 body {
     background-image: url('../assets/background.jpg');
     background-repeat: no-repeat;
@@ -7,23 +15,46 @@ body {
     margin: 0;
 }
 
-header {
+header,
+footer {
     background-color: black;
-    background: rgba(0, 0, 0, 0.5);
+    
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.4);
 }
 
 p {
     color: white;
 }
 
-h1 {
-    margin: 0;
-    padding: 1em;
-    color: white;
+a {
+    color: #3d3e3c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    margin: 0.5em 0;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
 }
 
-footer {
-    background-color: white;
+a:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: titleFont;
+    font-size: 9em;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    color: white;
+    user-select: none;
+    cursor: alias;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 button {
@@ -31,12 +62,56 @@ button {
     height: 50px;
     border: none;
     cursor: pointer;
+    background: none;
+    color: white;
+    font-family: 'Loved by the King', cursive;
+    font-size: 2em;
+    margin: 0 5px;
+    padding: 0;
+    user-select: none;
 }
 
 footer {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    left: 0;
+    font-family: 'Quicksand', sans-serif;
+    gap: 0.5rem;
     bottom: 0;
+    right: 0;
+    left: 0;
+    top: auto; 
     text-align: center;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.8);
 }
+
+i {
+    font-size: 1rem;
+    color: white;
+}
+
+i:hover {
+    opacity: 0.7;
+}
+
+/* .active {
+    color: red;
+} */
+
+/* Media queries */
+
+@media (max-width: 700px) {
+    #home,
+    #contact {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 57.5%;
+    }
+  }

@@ -1,4 +1,4 @@
-// import './styles/style.css';
+import './styles/style.css';
 import header from './header';
 import home from './home';
 import footer from './footer';
@@ -15,11 +15,11 @@ function loadPage(header, main, footer) {
 }
 
 document.addEventListener('click', (e) => {
-  const target = e.target.innerText;
+  const { target } = e;
 
-  if (target === 'HOME') { loadPage(header, home, footer); }
-  if (target === 'MENU') { loadPage(header, menu, footer); }
-  if (target === 'CONTACT') { loadPage(header, contact, footer); }
+  if (target.innerText === 'HOME') { loadPage(header, home, footer); }
+  if (target.innerText === 'MENU') { loadPage(header, menu, footer); }
+  if (target.innerText === 'CONTACT') { loadPage(header, contact, footer); }
 });
 
 loadPage(header, home, footer);
