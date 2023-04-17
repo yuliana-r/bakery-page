@@ -6,18 +6,6 @@ export default function header() {
 
   const navBar = document.createElement('nav');
 
-  function setActiveButton(button) {
-    const buttons = document.querySelectorAll('.nav-button');
-
-    buttons.forEach((button) => {
-      if (button !== this) {
-        button.classList.remove('active');
-      }
-    });
-
-    button.classList.add('active');
-  }
-
   const homeBtn = document.createElement('button');
   homeBtn.textContent = 'HOME';
   homeBtn.classList.add('nav-button');
