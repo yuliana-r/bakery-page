@@ -8,7 +8,7 @@
 html {
     height: 100%;
     /* overflow-y: scroll; */
-  }
+}
 
 body {
     background-image: url('../assets/background.jpg');
@@ -38,7 +38,8 @@ img {
     margin: 0.5em;
 }
 
-.contact {
+.content,
+.menu {
     width: 55%;
     text-align: center;
     padding: 2em;
@@ -50,6 +51,10 @@ img {
     border: 1px solid rgb(31, 31, 31);
     border-radius: 5px;
 }
+
+/* .menu {
+    
+} */
 
 #content {
     margin: 0;
@@ -85,6 +90,51 @@ h1 {
     cursor: alias;
     width: fit-content;
     margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Loved by the King', cursive;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    width: fit-content;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1em;
+}
+
+.divider {
+    margin: 0;
+}
+
+.bread-contents,
+.sweet-contents,
+.savory-contents {
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    padding: 1em;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    font-size: 1em;
+}
+
+.menu-item img {
+    height: 9em;
+    width: 230px;
+    border-radius: 0%;
+}
+
+.menu-item p {
+    margin: 10px;
 }
 
 button {
@@ -129,29 +179,29 @@ i:hover {
 /* Media queries */
 
 @media (max-width: 700px) {
+
     #home,
     #contact {
-      height: 100%;
-      width: 100%;
+        height: 100%;
+        width: 100%;
     }
-  }
-  
-  @media (max-width: 500px) {
-  }
+}
 
-  /* Scrollbar */
-  ::-webkit-scrollbar {
+@media (max-width: 500px) {}
+
+/* Scrollbar */
+::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #a5a4a4; 
-  }
+}
 
-  ::-webkit-scrollbar-thumb {
-    background: #222222; 
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #2c2c2c; 
-  }
+::-webkit-scrollbar-track {
+    background: #a5a4a4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2c2c2c;
+}

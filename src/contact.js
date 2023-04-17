@@ -1,6 +1,6 @@
 export default function contact() {
   const contact = document.createElement('div');
-  contact.classList.add('contact');
+  contact.classList.add('content');
 
   const phone = document.createElement('p');
   phone.textContent = '☎️ 012 3456 7890';

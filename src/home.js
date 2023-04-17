@@ -2,7 +2,7 @@ import baker from './assets/baker.jpg';
 
 export default function home() {
   const home = document.createElement('div');
-  home.classList.add('contact');
+  home.classList.add('content');
 
   const bakerImage = document.createElement('img');
   bakerImage.src = baker;
