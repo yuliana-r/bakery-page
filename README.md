@@ -7,7 +7,7 @@ The project primarily demonstrates use of npm to incorporate external JS modules
 
 ## Preview
 
-<!-- [![Bakery Page](./demo.png)](https://yuliana-r.github.io/bakery-page/) -->
+[![Bakery Page](./demo.png)](https://yuliana-r.github.io/bakery-page/)
 
 ## Media & assets credits:
 
