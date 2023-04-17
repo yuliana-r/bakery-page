@@ -6,15 +6,21 @@ export default function header() {
 
   const navBar = document.createElement('nav');
 
+  function setActiveButton(button) {
+    const buttons = document.querySelectorAll('.nav-button');
+
+    buttons.forEach((button) => {
+      if (button !== this) {
+        button.classList.remove('active');
+      }
+    });
+
+    button.classList.add('active');
+  }
+
   const homeBtn = document.createElement('button');
   homeBtn.textContent = 'HOME';
   homeBtn.classList.add('nav-button');
-  // homeBtn.addEventListener('click', (e) => {
-  //   if (e.target.classList.contains('active')) return;
-  //   console.log('home button clicked');
-  //   console.log(e.target.classList);
-  //   setActiveButton(homeBtn);
-  // });
 
   const menuBtn = document.createElement('button');
   menuBtn.textContent = 'MENU';
@@ -24,21 +30,9 @@ export default function header() {
   contactBtn.textContent = 'CONTACT';
   contactBtn.classList.add('nav-button');
 
-  // function setActiveButton(button) {
-  //   const buttons = document.querySelectorAll('.nav-button');
-
-  //   buttons.forEach((button) => {
-  //     if (button !== this) {
-  //       button.classList.remove('active');
-  //     }
-  //   });
-
-  //   button.classList.add('active');
-  // }
-
-  // homeBtn.setAttribute('id', 'home');
-  // menuBtn.setAttribute('id', 'menu');
-  // contactBtn.setAttribute('id', 'contact');
+  homeBtn.setAttribute('id', 'home');
+  menuBtn.setAttribute('id', 'menu');
+  contactBtn.setAttribute('id', 'contact');
 
   navBar.appendChild(homeBtn);
   navBar.appendChild(menuBtn);
