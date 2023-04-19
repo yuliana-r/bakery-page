@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: titleFont;
-    src: url('../assets/title.otf');
+    src: url('../title.otf');
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-image: url('../assets/background.jpg');
+    background-image: url('../background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

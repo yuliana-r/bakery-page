@@ -22,7 +22,7 @@ export default function menu() {
     const menuItem = document.createElement('div');
     menuItem.classList.add('menu-item');
 
-    const image = require(`./assets/menu/${name}.jpg`);
+    const image = require(`../dist/assets/menu/${name}.jpg`);
 
     const itemImg = document.createElement('img');
     itemImg.src = image;
