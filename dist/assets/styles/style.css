@@ -158,6 +158,7 @@ i:hover {
 
 .menu-item {
     font-size: 1em;
+    width: 300px;
 }
 
 .menu-item img {
