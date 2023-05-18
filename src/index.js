@@ -1,4 +1,4 @@
-import '../dist/assets/styles/style.css';
+import './assets/styles/style.css';
 import header from './header';
 import home from './home';
 import footer from './footer';

@@ -1,4 +1,4 @@
-import baker from '../dist/assets/baker.jpg';
+import baker from './assets/baker.jpg';
 
 export default function home() {
   const home = document.createElement('div');
